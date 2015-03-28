@@ -1,0 +1,11 @@
+For this program u need to install Eigen before
+U can get it from http://eigen.tuxfamily.org/index.php?title=Main_Page
+and then:
+cd 'dir for logistic_re'
+make
+./logistic_re +'train file' + 'epsilong' + 'gama' + 'Maxi_ters'
+ your train file':  u can find format for this file by read iris.data
+ epsilon: the Lower limit for diff between two weights for your classifier
+ gama : the learning rate
+ Max_iters : the max times for iterator
+
